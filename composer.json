@@ -1,0 +1,24 @@
+{
+    "name": "glugox/file-orchestrator",
+    "description": "Laravel package for safe file generation, editing, and undo via snapshots or manifests.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Glugox\\FileOrchestrator\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.4",
+        "illuminate/support": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Glugox\\FileOrchestrator\\FileOrchestratorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
